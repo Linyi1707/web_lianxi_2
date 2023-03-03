@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>这是一个标题</title>
+	</head>
+	<script>
+		var year = Number(prompt("请输入需要判断的年份："))
+		if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+			alert("闰年没错")
+		} else {
+			alert("应该是平年")
+		}
+	</script>
+	<body>
+	</body>
+</html>
